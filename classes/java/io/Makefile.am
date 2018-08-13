@@ -1,0 +1,81 @@
+# GLASSES, Generic cLASSES
+# Copyright (c) 1998-2004, Rodrigo Augusto Barbato Ferreira
+
+JAVAROOT=$(top_builddir)/classes
+AM_JAVACFLAGS=-bootclasspath $(JAVAROOT)
+EXTRA_DIST=$(noinst_JAVA)
+
+noinst_JAVA=\
+	io.java\
+	BufferedInputStream.java\
+	BufferedOutputStream.java\
+	BufferedReader.java\
+	BufferedWriter.java\
+	ByteArrayInputStream.java\
+	ByteArrayOutputStream.java\
+	CharArrayReader.java\
+	CharArrayWriter.java\
+	CharConversionException.java\
+	DataInput.java\
+	DataInputStream.java\
+	DataOutput.java\
+	DataOutputStream.java\
+	EOFException.java\
+	Externalizable.java\
+	File.java\
+	FileDescriptor.java\
+	FileFilter.java\
+	FileInputStream.java\
+	FilenameFilter.java\
+	FileNotFoundException.java\
+	FileOutputStream.java\
+	FileReader.java\
+	FileWriter.java\
+	FilterInputStream.java\
+	FilterOutputStream.java\
+	FilterReader.java\
+	FilterWriter.java\
+	IOException.java\
+	InputStream.java\
+	InputStreamReader.java\
+	InterruptedIOException.java\
+	InvalidClassException.java\
+	InvalidObjectException.java\
+	LineNumberInputStream.java\
+	LineNumberReader.java\
+	NotActiveException.java\
+	NotSerializableException.java\
+	ObjectInput.java\
+	ObjectInputStream.java\
+	ObjectInputValidation.java\
+	ObjectOutput.java\
+	ObjectOutputStream.java\
+	ObjectStreamClass.java\
+	ObjectStreamConstants.java\
+	ObjectStreamException.java\
+	ObjectStreamField.java\
+	OptionalDataException.java\
+	OutputStream.java\
+	OutputStreamWriter.java\
+	PipedInputStream.java\
+	PipedOutputStream.java\
+	PipedReader.java\
+	PipedWriter.java\
+	PrintStream.java\
+	PrintWriter.java\
+	PushbackInputStream.java\
+	PushbackReader.java\
+	RandomAccessFile.java\
+	Reader.java\
+	SequenceInputStream.java\
+	Serializable.java\
+	SerializablePermission.java\
+	StreamCorruptedException.java\
+	StringBufferInputStream.java\
+	StringReader.java\
+	StringWriter.java\
+	SyncFailedException.java\
+	UnsupportedEncodingException.java\
+	UTFDataFormatException.java\
+	WriteAbortedException.java\
+	Writer.java
