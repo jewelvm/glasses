@@ -40,6 +40,6 @@ reflect_la_SOURCES=reflect.c
 math_la_SOURCES=math.c
 
 net_la_SOURCES=net.c
-net_la_LDFLAGS=-Wl,-lwsock32
+net_la_LDFLAGS=-module -Wl,-lwsock32
 
 java_la_SOURCES=java.c

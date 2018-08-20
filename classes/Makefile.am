@@ -18,5 +18,5 @@ PKGDIRS=\
 
 data_DATA=glasses.jar
 
-glasses.jar: MANIFEST.MF $(addsuffix /classnoinst.stamp,$(PKGDIRS))
-	$(JAR) cvfm $@ $< $(addsuffix /*.class,$(PKGDIRS))
+glasses.jar: MANIFEST.MF $(PKGDIRS:=/classnoinst.stamp)
+	$(JAR) cvfm $@ $< $(PKGDIRS:=/*.class)
